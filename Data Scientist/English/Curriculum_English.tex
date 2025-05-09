@@ -1,5 +1,10 @@
 \documentclass[9pt,a4paper]{article}
-\usepackage[a4paper,margin=0.85in]{geometry}
+% Usar una sola familia tipográfica
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}        % Times New Roman (Texto y matemáticas básicas)
+
+\usepackage[a4paper,margin=0.3in]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{xcolor}
@@ -15,8 +20,7 @@
     urlcolor=blue,
 }
 
-% Nuevo comando para las cabeceras de experiencia
-% Argumentos: 1 = fecha/periodo, 2 = empresa, 3 = ubicación, 4 = título del puesto
+% Comando para eventos CV
 \newcommand{\cvevent}[4]{%
   {\noindent \textbf{#1 #2} \hfill \textbf{#3}\\%
    \textit{#4}\\[0pt]}%
@@ -26,16 +30,16 @@
 
 \begin{center}
     \textbf{\LARGE Sebastian David Pinzon Zambrano} \\
-    Valledupar, Cesar · (57) 318-6087347 · \href{mailto:spinzonzambrano@gmail.com}{spinzonzambrano@gmail.com} ·
+    Valledupar, Cesar · (57) 318-6087347 · \href{mailto:sebastianpinzon1223@gmail.com}{sebastianpinzon1223@gmail.com} ·
     \href{https://www.linkedin.com/in/sebastiandpinzon/?locale=en_US}{LinkedIn} · \href{https://github.com/Ares-Infenus}{Github}
 \end{center}
 \vspace{-1em}
-
+\vspace{-\baselineskip}
 \section*{Experience}
 \vspace{-\baselineskip}
 \noindent\rule{\linewidth}{0.5pt}
 
-\cvevent{2023-2024}{Imperio del Plastico}{Valledupar, Cesar}{Data Analyst}
+\cvevent{2023-2024}{Imperio del Plastico}{Valledupar, Cesar}{Data Scientist}
 \vspace{-\baselineskip}
 \begin{itemize}[noitemsep, topsep=0pt]
     \item Conceived and deployed advanced data analytics solutions using Python, R, SQL, and Excel, streamlining financial and operational workflows to reduce costs by 12\%.
@@ -46,7 +50,7 @@
     \item Rolled out an integrated online store and last-mile delivery system by optimizing logistics with Python and managing backend data operations with SQL, laying the groundwork for a scalable, data-driven growth strategy.
     \item Formulated and executed targeted strategies based on statistical analysis and KPI dashboards, achieving sustained monthly revenue growth of 13\% and stronger market positioning.
 \end{itemize}
-
+\vspace{-\baselineskip}
 \section*{Education}
 \vspace{-\baselineskip}
 \noindent\rule{\linewidth}{0.5pt}
@@ -56,12 +60,14 @@
 \begin{itemize}[noitemsep, topsep=0pt]
     \item Studies postponed for family and financial reasons.
 \end{itemize}
-
+\vspace{-\baselineskip}
 \section*{Certifications}
 \vspace{-\baselineskip}
 \noindent\rule{\linewidth}{0.5pt}
-
-\cvevent{2025}{Google}{Coursera}{\href{https://www.credly.com/badges/017b44b1-847d-4519-a2d6-8b8ab2af6bb4}{Google Professional Data Analytics Certificate}}
+\cvevent{2025}{DeepLearning.AI}{Coursera}{\href{https://www.coursera.org/account/accomplishments/specialization/83F9FK5OOPHM}{DeepLearning.AI TensorFlow Developer}}
+\cvevent{2025}{DeepLearning.AI}{Coursera}{\href{https://www.coursera.org/account/accomplishments/specialization/1AZLWBHUEUP5}{Deep Learning}}
+\cvevent{2025}{Amazon}{Coursera}{\href{https://www.coursera.org/account/accomplishments/specialization/DQ62CP3GJECK}{AWS Cloud Solutions Architect}}
+\cvevent{2025}{Google}{Coursera}{\href{https://www.coursera.org/account/accomplishments/professional-cert/M8V0QULMQX4N}{Google Professional Data Analytics Certificate}}
 \cvevent{2025}{Duke University}{Coursera}{\href{https://www.coursera.org/account/accomplishments/specialization/9GW0O26FOENS}{MLOps \textbar{} Machine Learning Operations}}
 \cvevent{2025}{Stanford University}{Coursera}{\href{https://www.coursera.org/account/accomplishments/specialization/AC7NFFS0WXWP}{Machine Learning}}
 \cvevent{2025}{University of Michigan}{Coursera}{\href{https://www.coursera.org/account/accomplishments/specialization/YVQ1D5MLFDQU}{Applied Data Science with Python}}
@@ -70,45 +76,39 @@
 \cvevent{2025}{Imperial College London}{Coursera}{\href{https://www.coursera.org/account/accomplishments/specialization/D7GUABT9DHUU}{Specialization in Mathematics for Machine Learning}}
 \cvevent{2025}{University of Michigan}{Coursera}{\href{https://www.coursera.org/account/accomplishments/specialization/8KBK5UWK2HFK}{PostgreSQL for Everybody}}
 \cvevent{2024}{IBM}{Coursera}{\href{https://www.credly.com/badges/eeb6412f-cdff-4324-8399-8e6ca143ef9b}{IBM Professional Data Science Certificate}}
-
 \vspace{-\baselineskip}
-
+\vspace{-\baselineskip}
 
 \section*{Projects}
 \vspace{-\baselineskip}
 \noindent\rule{\linewidth}{0.5pt}
-
-\textbf{CreditRisk X – Strategic Analytics \& Predictive Modeling for Fraud Detection} \hfill \textit{2025 – Present} \\
-\textit{Data Science Project \textbar{} Credit Risk \& Financial Fraud} \\
-Devised a supervised learning pipeline for detecting credit card fraud in imbalanced datasets by integrating class balancing, dimensionality reduction, and probability calibration techniques, which upgraded detection precision by 18\% and reduced false positives by 22\%. \\
-\textbf{\href{https://github.com/Ares-Infenus/Credit-Risk-Assessment}{[GitHub]}}
-
-\textbf{HermesDB – Financial Data Extraction and Analysis System} \hfill \textit{2025 – Present} \\
-\textit{Data Engineering \& Analytics \textbar{} ETL Pipelines, APIs, PostgreSQL} \\
-Developed a scalable architecture for automated financial data extraction, transformation, and analysis by integrating ETL pipelines from MetaTrader and web scraping methods into a PostgreSQL system, while implementing optimized partitioning, indexing, and API services for real-time access—boosting data processing speeds by 45\% and query performance by 30\%. \\
-\textbf{\href{https://github.com/Ares-Infenus/HERMESDB}{[GitHub]}}
 
 \textbf{Customer Segmentation in Shopping Malls: Analysis and Marketing Strategies} \hfill \textit{2025} \\
 \textit{Data Science \textbar{} Unsupervised Learning, Cluster Validation, Consumer Analytics} \\
 Applied advanced clustering techniques to segment customers using demographic and behavioral data, validated model robustness with multiple indices, and identified five distinct customer profiles that informed targeted marketing strategies, resulting in a 20\% acceleration of campaign conversion rates. \\
 \textbf{\href{https://github.com/Ares-Infenus/Customer-Segmentation-in-Shopping-Malls}{[GitHub]}} \textbar{} \href{https://drive.google.com/file/d/1wPNeTWYn17Iix7GtWFPAcKPULzoskr_N/view?usp=sharing}{[Documentation]}
 
-
+\vspace{-\baselineskip}
 \section*{Skills}
 \vspace{-\baselineskip}
 \noindent\rule{\linewidth}{0.5pt}
 
 \textbf{Programming Languages:} Python, C++, C, SQL, R, JavaScript, HTML, CSS, LaTeX.\\
-\textbf{Analysis Tools:} Excel, Tableau, Scikit-learn, TensorFlow, Pandas, Matplotlib.\\
+\textbf{Analysis Tools:} Excel, Tableau, PowerBI, Scikit-learn, TensorFlow, Pandas, Matplotlib.\\
 \textbf{Databases and Big Data:} MongoDB, PostgreSQL, Oracle, Spark, Hadoop.\\
 \textbf{Cloud Computing:} AWS, Google Cloud, Azure.\\
 \textbf{Soft Skills:} Leadership, Project Management, Effective Communication.
-
+\vspace{-\baselineskip}
 \section*{Honors \& awards}
 \vspace{-\baselineskip}
 \noindent\rule{\linewidth}{0.5pt}
 
 \cvevent{2018}{Secretary of Education}{Valledupar, Cesar}{Best Saber 11 Tests}
 \vspace{-\baselineskip}
+\vspace{-\baselineskip}
 
+\section*{About me}
+\vspace{-\baselineskip}
+\noindent\rule{\linewidth}{0.5pt}
+A cheerful, resilient and persistent professional, I am a Data Scientist \& ML Engineer with more than a year of experience transforming data into tangible results (12\% cost reduction and 15\% forecast accuracy improvement). I am proficient in Python, SQL, R and cloud environments (AWS, GCP), and translate technical findings into high impact business strategies. My aspiration is to become a great leader capable of guiding organizations to success, driving multidisciplinary teams with vision, passion and collaboration.
 \end{document}
