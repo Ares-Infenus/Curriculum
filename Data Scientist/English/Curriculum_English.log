@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  5 MAY 2025 00:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.12)  26 MAY 2025 09:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/spinz/OneDrive/Documentos/Portafolio oficial/CV/Data Scientist/English/Curriculum_English.tex"
-(c:/Users/spinz/OneDrive/Documentos/Portafolio oficial/CV/Data Scientist/English/Curriculum_English.tex
+**"d:/Portafolio oficial/CV/Data Scientist/English/Curriculum_English.tex"
+(d:/Portafolio oficial/CV/Data Scientist/English/Curriculum_English.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -330,7 +330,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 
 [2] (./Curriculum_English.aux)
  ***********
@@ -341,18 +341,18 @@ Package rerunfilecheck Info: File `Curriculum_English.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10078 strings out of 473190
- 154466 string characters out of 5719979
- 581932 words of memory out of 5000000
- 33232 multiletter control sequences out of 15000+600000
- 575537 words of font info for 49 fonts, out of 8000000 for 9000
+ 10082 strings out of 473190
+ 154416 string characters out of 5719979
+ 583932 words of memory out of 5000000
+ 33234 multiletter control sequences out of 15000+600000
+ 575850 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,1289b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Curriculum_English.pdf (2 pages, 58354 bytes).
+ 75i,5n,79p,1257b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Curriculum_English.pdf (2 pages, 85548 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
